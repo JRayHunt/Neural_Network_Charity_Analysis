@@ -16,6 +16,7 @@ We selected the field "Is_Successful" to be the target or dependent variable (wh
 We trained the model storing checkpoint weights in the Resources/AlphabetSoupCharity.hdf5 file.
 
 The initial loss and accuracy scores are below:
+
 ![image3.png](/Resources/image3.png)
 
 ### Summary
