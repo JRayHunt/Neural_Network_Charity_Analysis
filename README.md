@@ -7,7 +7,7 @@ For this project we used data analysis tools language Python and Pandas, data pr
 ### Results
 When preparing our categorical data for encoding we visualized the density of the application type values. Here we can identify that '400' is roughly the cut-off value below which we can consolidate values as 'other': 
 
-![image1.PNG](/Resources/image1.PNG)
+![image1.png](/Resources/image1.png)
 
 We selected a deep neural net for our model.
 
@@ -16,7 +16,7 @@ We selected the field "Is_Successful" to be the target or dependent variable (wh
 We trained the model storing checkpoint weights in the Resources/AlphabetSoupCharity.hdf5 file.
 
 The initial loss and accuracy scores are below:
-![image3.PNG](/Resources/image3.PNG)
+![image3.png](/Resources/image3.png)
 
 ### Summary
 We made three attempts to optimze the model:
@@ -24,7 +24,7 @@ We made three attempts to optimze the model:
 ### First Optimization
 First we changed the threshold for categorizing ATTRIBUTE_TYPE from 400 to 600:
 
-![image2.PNG](/Resources/image2.PNG)
+![image2.png](/Resources/image2.png)
 
 Results were are small change in accuracy of four thousanths of a point to 0.729:
 
